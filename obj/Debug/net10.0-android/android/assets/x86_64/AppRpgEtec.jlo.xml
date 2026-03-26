@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc648cace2d65dd9830e" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="AppRpgEtec.MainActivity, AppRpgEtec">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc648cace2d65dd9830e" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="AppRpgEtec.MainApplication, AppRpgEtec" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="AppRpgEtec" module-name="AppRpgEtec.dll">
+    <type assembly-qualified-name="AppRpgEtec.MainActivity, AppRpgEtec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="apprpgetec.MainActivity" java-key="crc648cace2d65dd9830e.MainActivity" managed-key="AppRpgEtec.MainActivity" partial-assembly-qualified-name="AppRpgEtec.MainActivity, AppRpgEtec" />
+    <type assembly-qualified-name="AppRpgEtec.MainApplication, AppRpgEtec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="apprpgetec.MainApplication" java-key="crc648cace2d65dd9830e.MainApplication" managed-key="AppRpgEtec.MainApplication" partial-assembly-qualified-name="AppRpgEtec.MainApplication, AppRpgEtec" />
+  </acw-types>
+</api>
