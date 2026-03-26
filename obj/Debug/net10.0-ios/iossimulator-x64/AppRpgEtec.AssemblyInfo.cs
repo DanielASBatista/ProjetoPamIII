@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppRpgEtec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e83332cbd75fb5b989c10ed34cf5fe35d3ffa7c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppRpgEtec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppRpgEtec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
