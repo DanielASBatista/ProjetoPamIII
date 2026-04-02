@@ -1,18 +1,23 @@
-﻿using System;
+﻿using AppRpgEtec.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
-
+using AppRpgEtec.ViewModels.Usuarios;
 namespace AppRpgEtec.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        void OnPropertyChanged(string propertyName)
+        public  void OnPropertyChanged([CallerMemberName] string Name = "")
         {
             PropertyChanged?.Invoke
-                (this, new PropertyChangedEventArgs(propertyName));
+                (this, new PropertyChangedEventArgs(Name));
         }
+       
+
+
     }
 }
