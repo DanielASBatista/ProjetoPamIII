@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using AppRpgEtec.Views.Usuarios;
+using AppRpgEtec.Views.Personagens;
+using AppRpgEtec.Views.Armas;
 
 namespace AppRpgEtec.ViewModels.Usuarios
 {
@@ -79,7 +81,8 @@ namespace AppRpgEtec.ViewModels.Usuarios
 
                     await Application.Current.MainPage.DisplayAlert("Informação", mensagem, "OK");
 
-                    Application.Current.MainPage = new MainPage();
+
+                    Application.Current.MainPage = new ListagemViewArmas();
 
 
                 }
