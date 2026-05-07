@@ -82,13 +82,13 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     await Application.Current.MainPage.DisplayAlert("Informação", mensagem, "OK");
 
 
-                    Application.Current.MainPage = new ListagemViewArmas();
+                    Application.Current.MainPage = new AppShell();
 
 
                 }
                 else
                 {
-                    await Application.Current.MainPage.DisplayAlert("Informação", "dados incorretos :,V", "Ok");
+                    await Application.Current.MainPage.DisplayAlert("Informação", "Dados incorretos :,V", "Ok");
                 }
             }
             catch (Exception ex)
