@@ -15,7 +15,7 @@ namespace AppRpgEtec.ViewModels.Personagens
     {
         private PersonagemService pService;
         public ICommand SalvarCommand {  get; }
-        public ICommand CancelarCommand {  get; set; }
+        public ICommand CancelarCommand { get; set; }
 
 
         public CadastroPersonagemViewModel()
