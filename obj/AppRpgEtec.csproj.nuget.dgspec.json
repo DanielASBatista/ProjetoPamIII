@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\maiu130226\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {}
+    "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj": {}
   },
   "projects": {
-    "D:\\maiu130226\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj": {
+    "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\maiu130226\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectUniqueName": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj",
         "projectName": "AppRpgEtec",
-        "projectPath": "D:\\maiu130226\\AppRpgEtec\\AppRpgEtec\\AppRpgEtec.csproj",
+        "projectPath": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj",
         "packagesPath": "D:\\NUGET_PACKAGES",
-        "outputPath": "D:\\maiu130226\\AppRpgEtec\\AppRpgEtec\\obj\\",
+        "outputPath": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -69,11 +69,15 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.8, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.60, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[10.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -389,11 +393,15 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.8, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.60, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[10.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -709,11 +717,15 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.8, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.60, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[10.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -1030,11 +1042,15 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.8, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.60, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[10.0.60, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

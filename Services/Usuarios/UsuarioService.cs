@@ -9,7 +9,7 @@ namespace AppRpgEtec.Services.Usuarios
     {
         private readonly Request _request;
 
-       private const string _apiUrlBase = "http://luizsilva12.somee.com/RpgApi/Usuarios";
+        private const string _apiUrlBase = "http://luizsilva12.somee.com/RpgApi/Usuarios";
 
         public UsuarioService()
         {
@@ -25,7 +25,7 @@ namespace AppRpgEtec.Services.Usuarios
             return u;
         }
 
-        public async Task<Usuario> PostAutenticarUsuarioAsync (Usuario u)
+        public async Task<Usuario> PostAutenticarUsuarioAsync(Usuario u)
         {
             string urlComplementar = "/Autenticar";
             u = await _request.PostAsync(_apiUrlBase + urlComplementar, u, string.Empty);

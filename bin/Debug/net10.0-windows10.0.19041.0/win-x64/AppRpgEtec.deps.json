@@ -11,7 +11,12 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": "10.0.0",
           "Microsoft.Maui.Controls": "10.0.1",
+          "Microsoft.Maui.Controls.Maps": "10.0.60",
           "Newtonsoft.Json": "13.0.4",
+          "Microsoft.Maui.Controls.HotReload.Forms": "18.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.MobileTapContracts": "18.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.TapContract": "18.0.0.0",
+          "Microsoft.VisualStudio.DesignTools.XamlTapContract": "18.0.0.0",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.3179.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
@@ -317,6 +322,17 @@
           }
         }
       },
+      "Microsoft.Maui.Controls.Maps/10.0.60": {
+        "dependencies": {
+          "Microsoft.Maui.Maps": "10.0.60"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.6026.22707"
+          }
+        }
+      },
       "Microsoft.Maui.Controls.Xaml/10.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "10.0.0",
@@ -385,6 +401,14 @@
           "lib/net10.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.125.57106"
+          }
+        }
+      },
+      "Microsoft.Maui.Maps/10.0.60": {
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/Microsoft.Maui.Maps.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.6026.22707"
           }
         }
       },
@@ -515,6 +539,38 @@
           "lib/net6.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "Microsoft.Maui.Controls.HotReload.Forms/18.0.0.0": {
+        "runtime": {
+          "Microsoft.Maui.Controls.HotReload.Forms.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.1.38048.58550"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.MobileTapContracts/18.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.1.38048.58550"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.TapContract/18.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.TapContract.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.1.38048.58550"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.DesignTools.XamlTapContract/18.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.DesignTools.XamlTapContract.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.1.38048.58550"
           }
         }
       },
@@ -651,6 +707,13 @@
       "path": "microsoft.maui.controls.core/10.0.1",
       "hashPath": "microsoft.maui.controls.core.10.0.1.nupkg.sha512"
     },
+    "Microsoft.Maui.Controls.Maps/10.0.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H7pg6LAocU0i7Z4SKcONcizRulTAJfz9hD3kyLvHD/wgcAjAmhiT4BweeQQH02oeIqo6AjgmWeQoKzNRuf/SKg==",
+      "path": "microsoft.maui.controls.maps/10.0.60",
+      "hashPath": "microsoft.maui.controls.maps.10.0.60.nupkg.sha512"
+    },
     "Microsoft.Maui.Controls.Xaml/10.0.1": {
       "type": "package",
       "serviceable": true,
@@ -686,6 +749,13 @@
       "path": "microsoft.maui.graphics.win2d.winui.desktop/10.0.1",
       "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.10.0.1.nupkg.sha512"
     },
+    "Microsoft.Maui.Maps/10.0.60": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jTcdgXIG7BaHZ3YQ0LK3Tu5akO0kS5bzn8+EQR2rqdZwiezPQKMUvbxJKqznk+XNJBBTkwxP/WMpCwhkedzH0Q==",
+      "path": "microsoft.maui.maps/10.0.60",
+      "hashPath": "microsoft.maui.maps.10.0.60.nupkg.sha512"
+    },
     "Microsoft.Web.WebView2/1.0.3179.45": {
       "type": "package",
       "serviceable": true,
@@ -706,6 +776,26 @@
       "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
       "path": "newtonsoft.json/13.0.4",
       "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.HotReload.Forms/18.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.MobileTapContracts/18.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.TapContract/18.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.DesignTools.XamlTapContract/18.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.Web.WebView2.Core.Projection/1.0.3179.45": {
       "type": "reference",
