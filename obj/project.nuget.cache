@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k0UsYSeKFIU=",
+  "dgSpecHash": "pvzfbtngiC8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj",
+  "projectFilePath": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj",
   "expectedPackageFiles": [
     "D:\\NUGET_PACKAGES\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "D:\\NUGET_PACKAGES\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",

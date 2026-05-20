@@ -32876,11 +32876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj",
+      "projectUniqueName": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj",
       "projectName": "AppRpgEtec",
-      "projectPath": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\AppRpgEtec.csproj",
+      "projectPath": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj",
       "packagesPath": "D:\\NUGET_PACKAGES",
-      "outputPath": "C:\\Users\\etechas\\source\\repos\\ProjetoPamIII\\obj\\",
+      "outputPath": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

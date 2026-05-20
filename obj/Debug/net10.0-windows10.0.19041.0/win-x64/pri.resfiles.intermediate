@@ -1,6 +1,10 @@
-C:\Users\etechas\source\repos\ProjetoPamIII\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.pri
-C:\Users\etechas\source\repos\ProjetoPamIII\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri
-D:\NUGET_PACKAGES\microsoft.maui.controls.core\10.0.1\lib\net10.0-windows10.0.19041\Microsoft.Maui.Controls.pri
+D:\maiu130226\Nova pasta\ProjetoPamIII\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.pri
+D:\maiu130226\Nova pasta\ProjetoPamIII\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri
+D:\NUGET_PACKAGES\microsoft.maui.controls.core\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Controls.pri
 D:\NUGET_PACKAGES\microsoft.maui.controls.maps\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Controls.Maps.pri
-D:\NUGET_PACKAGES\microsoft.maui.core\10.0.1\lib\net10.0-windows10.0.19041\Microsoft.Maui.pri
+D:\NUGET_PACKAGES\microsoft.maui.controls.xaml\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.pri
+D:\NUGET_PACKAGES\microsoft.maui.core\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.pri
+D:\NUGET_PACKAGES\microsoft.maui.essentials\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Essentials.pri
+D:\NUGET_PACKAGES\microsoft.maui.graphics.win2d.winui.desktop\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.pri
+D:\NUGET_PACKAGES\microsoft.maui.graphics\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Graphics.pri
 D:\NUGET_PACKAGES\microsoft.maui.maps\10.0.60\lib\net10.0-windows10.0.19041\Microsoft.Maui.Maps.pri
