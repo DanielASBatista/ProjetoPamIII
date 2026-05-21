@@ -30,18 +30,33 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <ShellContent
-        Title="Login" Icon="home.svg"
-        ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}"
-        Route="MainPage" />
-    
-    <ShellContent Title="Usuários" Icon="menuusuarios.svg"
-                  ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
 
-    <ShellContent Title="Personagens" Icon="menupersonagens.svg"
-              ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}" />
+        <ShellContent
+            Title="Home" Icon="home.svg"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
 
-    <ShellContent Title="Disputas" Icon="menudisputas.svg"
-              ContentTemplate="{DataTemplate viewsDisputas:ListagemView}" />
+        <ShellContent Title="Usuários" Icon="menuusuarios.svg" ContentTemplate="{DataTemplate viewsUsuarios:ListagemView}" />
+
+        <ShellContent Title="Personagens" Icon="menupersonagens.svg"
+                  ContentTemplate="{DataTemplate viewsPersonagens:ListagemView}" />
+
+        <ShellContent Title="Disputas" Icon="menudisputas.svg"
+                  ContentTemplate="{DataTemplate viewsDisputas:ListagemView}" />
+        <Tab Title="Info" Route="info" Icon="info.svg">
+            <ShellContent Title="Sobre" Route="sobre" ContentTemplate="{DataTemplate local:AboutView}"/>
+
+            <ShellContent Title="Descrição" Route="desc" ContentTemplate="{DataTemplate local:DescriptionView}"/>
+        </Tab>
+        
+    </FlyoutItem>
+
+    <ShellContent Title="Sair" Icon="Exit.png" ContentTemplate="{DataTemplate viewUsuarios:LoginView}"
+                  Shell.FlyoutBehavior="Disabled"/>
+
+    <Shell.FlyoutFooter>
+        <Label x:Name="lblLogin" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" />
+    </Shell.FlyoutFooter>
 
 </Shell>

@@ -9,6 +9,9 @@ namespace AppRpgEtec
             InitializeComponent();
 
             Routing.RegisterRoute("cadPersonagemView", typeof(CadastroPersonagemView));
+
+            string login = Preferences.Get("UsuarioUsername",string.Empty);
+            lblLogin.Text = login;
         }
     }
 }
