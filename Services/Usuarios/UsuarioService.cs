@@ -1,6 +1,7 @@
 ﻿using AppRpgEtec.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace AppRpgEtec.Services.Usuarios
@@ -10,12 +11,37 @@ namespace AppRpgEtec.Services.Usuarios
         private readonly Request _request;
 
         private const string _apiUrlBase = "http://luizsilva12.somee.com/RpgApi/Usuarios";
+        private string _token;
 
         public UsuarioService()
         {
             _request = new Request();
+        }
+
+        
+        public UsuarioService(string token)
+        {
+            _request = new Request();
+            _token = token;
 
         }
+
+        public async Task<int> PutAtualizarLocalizacaoAsync(Usuario u)
+        {
+            string urlComplementar = "/AtualizarLocalizacao";
+            var result = await _request.PutAsync(_apiUrlBase + urlComplementar, u, _token);
+            return result;
+        }
+        //using System.Collections.ObjectModel
+        public async Task<ObservableCollection<Usuario>> GetUsuariosAsync()
+        {
+            string urlComplementar = string.Format("{0}", "/GetAll");
+            ObservableCollection<Models.Usuario> listaUsuarios = await
+            _request.GetAsync<ObservableCollection<Models.Usuario>>(_apiUrlBase + urlComplementar,
+            _token);
+            return listaUsuarios;
+        }
+
 
         public async Task<Usuario> PostRegistrarUsuarioAsync(Usuario u)
         {

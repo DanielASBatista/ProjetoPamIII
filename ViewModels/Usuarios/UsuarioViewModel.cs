@@ -1,12 +1,13 @@
 ﻿using AppRpgEtec.Models;
 using AppRpgEtec.Services.Usuarios;
+using AppRpgEtec.Views.Armas;
+using AppRpgEtec.Views.Personagens;
+using AppRpgEtec.Views.Usuarios;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using System.Windows.Input;
-using AppRpgEtec.Views.Usuarios;
-using AppRpgEtec.Views.Personagens;
-using AppRpgEtec.Views.Armas;
 
 namespace AppRpgEtec.ViewModels.Usuarios
 {
@@ -37,6 +38,9 @@ namespace AppRpgEtec.ViewModels.Usuarios
         }
         #region AtributosPropriedades
         private string login = string.Empty;
+        
+        
+
 
         public string Login
         {
@@ -61,6 +65,9 @@ namespace AppRpgEtec.ViewModels.Usuarios
             }
         }
         #endregion
+        private CancellationTokenSource _cancellationTokenSource;
+        private bool _isCheckingLocation;
+
 
         public async Task AutenticarUsuario()
         {
@@ -78,6 +85,19 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     Preferences.Set("UsuarioUsername", uAutenticado.Username);
                     Preferences.Set("UsuarioPerfil", uAutenticado.Perfil);
                     Preferences.Set("UsuarioToken", uAutenticado.Token);
+
+                    _isCheckingLocation = true;
+                    _cancellationTokenSource = new CancellationTokenSource();
+                    GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+                    Location location = await Geolocation.Default.GetLocationAsync(request, _cancellationTokenSource.Token);
+
+                    Usuario uLoc = new Usuario();
+                    uLoc.id = uAutenticado.id;
+                    uLoc.Latitude = location.Latitude;
+                    uLoc.Longitude = location.Longitude;
+
+                    UsuarioService uServiceLoc = new UsuarioService(uAutenticado.Token);
+                    await uServiceLoc.PutAtualizarLocalizacaoAsync(uLoc);
 
                     await Application.Current.MainPage.DisplayAlert("Informação", mensagem, "OK");
 
