@@ -1,4 +1,4 @@
-﻿namespace AppRpgEtec
+﻿/*namespace AppRpgEtec
 {
     public partial class MainPage : ContentPage
     {
@@ -19,6 +19,17 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+    }
+} */
+
+namespace AppRpgEtec
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
         }
     }
 }
