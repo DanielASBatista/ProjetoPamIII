@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj": {}
+    "C:\\Users\\etechas\\Desktop\\ProjetoPam\\ProjetoPamIII\\AppRpgEtec.csproj": {}
   },
   "projects": {
-    "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj": {
+    "C:\\Users\\etechas\\Desktop\\ProjetoPam\\ProjetoPamIII\\AppRpgEtec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj",
+        "projectUniqueName": "C:\\Users\\etechas\\Desktop\\ProjetoPam\\ProjetoPamIII\\AppRpgEtec.csproj",
         "projectName": "AppRpgEtec",
-        "projectPath": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\AppRpgEtec.csproj",
+        "projectPath": "C:\\Users\\etechas\\Desktop\\ProjetoPam\\ProjetoPamIII\\AppRpgEtec.csproj",
         "packagesPath": "D:\\NUGET_PACKAGES",
-        "outputPath": "D:\\maiu130226\\Nova pasta\\ProjetoPamIII\\obj\\",
+        "outputPath": "C:\\Users\\etechas\\Desktop\\ProjetoPam\\ProjetoPamIII\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
